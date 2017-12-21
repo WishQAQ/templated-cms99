@@ -1,0 +1,4 @@
+INSERT INTO `dede_search_keywords` VALUES('1','大幅度','大幅度 大幅度','1','0','1504163110','0','0');
+INSERT INTO `dede_search_keywords` VALUES('2','花旗参系列','花旗参系列 系列 花旗','1','0','1504163132','0','0');
+INSERT INTO `dede_search_keywords` VALUES('3','网易首页  教育频道','网易首页 教育频道 教育频道 网易 首页','1','1','1504163153','0','0');
+INSERT INTO `dede_search_keywords` VALUES('4','系列','系列','2','5','1504405709','0','0');

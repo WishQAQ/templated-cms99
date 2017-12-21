@@ -1,0 +1,1 @@
+<div class="about_more"><a href="[field:typelink/]">MORE</a></div>

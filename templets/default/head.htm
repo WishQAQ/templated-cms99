@@ -1,0 +1,46 @@
+<header id="header">
+  <div class="container">
+    <div id="logo"><a href="/" title="{dede:global.cfg_webname/}"><img src="/skin/images/201722015193249.png" alt="{dede:global.cfg_webname/}" /></a></div>
+    <div id="header_right">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <div class="language"> 
+        <!--<ul>
+          <li><a href="#">中文版</a> |</li>
+          <li><a href="#">ENGLISH</a></li>
+        </ul>--> 
+      </div>
+      <div class="clear"></div>
+      <nav id="navigate">
+        <ul>
+          <li class="first_menu"><a  {dede:field name=typeid runphp="yes"}(@me=="")? @me=" class='current' ":@me="";{/dede:field} href='/'>首页</a></li>
+          {dede:channelartlist typeid='top' row='8' currentstyle='current'}
+          <li><a class='{dede:field.currentstyle/}' href='{dede:field name='typeurl'/}'>{dede:field name='typename'/}</a>
+            <ul>
+              {dede:channel type='son' noself='yes'}
+              <li><a href='[field:typelink/]'>[field:typename/]</a></li>
+              {/dede:channel}
+            </ul>
+          </li>
+          {/dede:channelartlist}
+        </ul>
+      </nav>
+    </div>
+    <div class="clear"></div>
+    <div class="row mobile_nav">
+      <nav class="collapse navbar-collapse">
+        <ul>
+          <li><a href='/'>首页</a></li>
+          {dede:channelartlist typeid='top' row='8'}
+          <li><a href='{dede:field name='typeurl'/}'>{dede:field name='typename'/}<i class="touch-arrow-down"></i></a>
+            <ul>
+              {dede:channel type='son' noself='yes'}
+              <li><a href='[field:typelink/]'>[field:typename/]</a></li>
+              {/dede:channel}
+            </ul>
+          </li>
+          {/dede:channelartlist}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

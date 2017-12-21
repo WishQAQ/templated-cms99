@@ -1,0 +1,4 @@
+INSERT INTO `dede_kwcache` VALUES('198','12','http://money.163.com/16/1006/13/C2MQD5UL002580S6.html');
+INSERT INTO `dede_kwcache` VALUES('195','12','http://money.163.com/16/1006/13/C2MQPVQJ002580S6.html');
+INSERT INTO `dede_kwcache` VALUES('194','12','http://money.163.com/16/1006/13/C2MR6USG002580S6.html');
+INSERT INTO `dede_kwcache` VALUES('193','12','http://money.163.com/16/1006/13/C2MRM83P002580S6.html');

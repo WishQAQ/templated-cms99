@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description  function='html2text(@me)'/}" />
+<link href="/skin/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+<link href="/skin/css/style.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="/skin/js/jquery.min.js"></script>
+<script type="text/javascript" src="/skin/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/skin/js/touchslide.1.1.js"></script>
+<script type="text/javascript" src="/skin/js/common.js"></script>
+<!--[if (gt IE 9)|!(IE)]><!-->
+<link href="/skin/css/animate.min.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="/skin/js/wow.min.js"></script>
+<!--<![endif]-->
+
+</head>
+<body>
+<!--头部开始--> 
+{dede:include filename="head.htm"/}
+<div class="clear"></div>
+<div id="banner"><img src="/skin/images/2017220152528810.jpg" /></div>
+<div class="clear"></div>
+<!--内容区开始-->
+<div class="main">
+  <div class="container">
+    <div id="left">
+      <div class="left_list">
+        <div class="left_top">
+          <h3>{dede:field name='typeid' function="GetTopTypename(@me)"/}</h3>
+        </div>
+        <div class="left_con">
+          <div class="type_list">
+            <ul>
+              {dede:channel type ='son' currentstyle="
+              <li><a href='~typelink~' class='current'>~typename~</a></li>
+              "}
+              <li><a href='[field:typeurl/]'>[field:typename/]</a></li>
+              {/dede:channel}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="right">
+      <div id="right_top">
+        <h3>{dede:field name='typename'/}</h3>
+      </div>
+      <div id="right_con">
+        <form name="myform" method="post" action="/plus/diy.php" onSubmit="return Checkfeedback(this);">
+          <input type="hidden" name="action" value="post" />
+          <input type="hidden" name="diyid" value="1" />
+          <input type="hidden" name="do" value="2" />
+          <div class="f_list"><span class="fl_l"><font color="#ff0000">*</font>姓名：</span><span class="fl_r">
+            <input class="input_text" name="xm" type="text" size="30" value="" />
+            </span></div>
+          <div class="f_list"><span class="fl_l"><font color="#ff0000">*</font>电话：</span><span class="fl_r">
+            <input class="input_text" name="dh" type="text" size="30" value="" />
+            </span></div>
+          <div class="f_list"><span class="fl_l"><font color="#ff0000">*</font>邮箱：</span><span class="fl_r">
+            <input class="input_text" name="yx" type="text" size="30" value="" />
+            </span></div>
+          <div class="f_list"><span class="fl_l"><font color="#ff0000">*</font>公司：</span><span class="fl_r">
+            <input class="input_text" name="gs" type="text" size="50" value="" />
+            </span></div>
+          <div class="f_list"><span class="fl_l"><font color="#ff0000">*</font>地址：</span><span class="fl_r">
+            <input class="input_text" name="dz" type="text" size="50" value="" />
+            </span></div>
+          <div class="f_list"><span class="fl_l"><font color="#ff0000">*</font>标题：</span><span class="fl_r">
+            <input class="input_text" name="bt" type="text" size="50" value="" />
+            </span></div>
+          <div class="f_list"><span class="fl_l"><font color="#ff0000">*</font>内容：</span><span class="fl_r">
+            <textarea class="input_text" rows="5" cols="44" name="nr"></textarea>
+            </span></div>
+          <div class="f_list"><span class="fl_l">&nbsp;</span><span class="fl_r">
+            <input type="hidden" name="dede_fields" value="xm,text;dh,text;yx,text;gs,text;dz,text;bt,text;nr,text" />
+            <input type="hidden" name="dede_fieldshash" value="4976349a1965684f2491e234552fa865" />
+            <input id="submit" class="btn btn-success" type="submit" name="submit" value=" 提交 " />
+            <input class="btn btn-danger" type="reset" name="Submit2" value=" 重置 " />
+            </span></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!--内容区结束--> 
+{dede:include filename="footer.htm"/} 
+<!--版权区结束-->
+</body>
+</html>

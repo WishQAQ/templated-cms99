@@ -1,0 +1,43 @@
+<?php
+$z[0]=Array("field","",202,221);
+$z[0][4]=array();
+$z[0][4]['name']="title";
+$z[1]=Array("global","",222,248);
+$z[1][4]=array();
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("field","",289,318);
+$z[2][4]=array();
+$z[2][4]['name']="keywords";
+$z[3]=Array("field","",358,417);
+$z[3][4]=array();
+$z[3][4]['name']="description";
+$z[3][4]['function']="html2text(@me)";
+$z[4]=Array("include","",1093,1128);
+$z[4][4]=array();
+$z[4][4]['filename']="head.htm";
+$z[5]=Array("field","",1456,1514);
+$z[5][4]=array();
+$z[5][4]['name']="typeid";
+$z[5][4]['function']="GetTopTypename(@me)";
+$z[6]=Array("channel","\r\n              <li><a href='[field:typeurl/]'>[field:typename/]</a></li>\r\n              ",1637,1875);
+$z[6][4]=array();
+$z[6][4]['type']="son";
+$z[6][4]['currentstyle']="<li><a href='~typelink~' class='current'>~typename~</a></li>";
+$z[7]=Array("field","",2027,2055);
+$z[7][4]=array();
+$z[7][4]['name']="typeurl";
+$z[8]=Array("field","",2057,2086);
+$z[8][4]=array();
+$z[8][4]['name']="typename";
+$z[9]=Array("list","\r\n            <div class=\"col-lg-3 col-md-4 col-sm-6 col-xs-12 pro_list wow fadeInUp\" data-wow-delay=\".2s\">\r\n              <div class=\"pro_img\"><a href=\"[field:arcurl/]\" title=\"[field:title/]\"><img src=\"[field:picname/]\" alt=\"[field:title/]\"></a></div>\r\n              <div class=\"pro_title\"><a href='[field:arcurl/]' title='[field:title/]'>[field:title/]</a></div>\r\n            </div>\r\n            ",2202,2637);
+$z[9][4]=array();
+$z[9][4]['pagesize']="8";
+$z[10]=Array("pagelist","",2719,2779);
+$z[10][4]=array();
+$z[10][4]['listitem']="end,pre,next,pageno";
+$z[10][4]['listsize']="5";
+$z[11]=Array("include","",2873,2910);
+$z[11][4]=array();
+$z[11][4]['filename']="footer.htm";
+
+?>

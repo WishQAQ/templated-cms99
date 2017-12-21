@@ -1,0 +1,46 @@
+<?php
+$z[0]=Array("type","\r\n        <div class=\"help_top\"><a href=\"[field:typelink/]\">[field:typename/]</a></div>\r\n        ",224,355);
+$z[0][4]=array();
+$z[0][4]['typeid']="1";
+$z[1]=Array("channel","\r\n            <li><a href='[field:typelink/]'>[field:typename/]</a></li>\r\n            ",418,558);
+$z[1][4]=array();
+$z[1][4]['type']="son";
+$z[1][4]['typeid']="1";
+$z[2]=Array("type","\r\n        <div class=\"help_top\"><a href=\"[field:typelink/]\">[field:typename/]</a></div>\r\n        ",700,831);
+$z[2][4]=array();
+$z[2][4]['typeid']="2";
+$z[3]=Array("channel","\r\n            <li><a href='[field:typelink/]' title=\"[field:typename/]\">[field:typename/]</a></li>\r\n            ",894,1058);
+$z[3][4]=array();
+$z[3][4]['type']="son";
+$z[3][4]['typeid']="2";
+$z[4]=Array("type","\r\n        <div class=\"help_top\"><a href=\"[field:typelink/]\">[field:typename/]</a></div>\r\n        ",1240,1371);
+$z[4][4]=array();
+$z[4][4]['typeid']="5";
+$z[5]=Array("channel","\r\n            <li><a href='[field:typelink/]' title=\"[field:typename/]\">[field:typename/]</a></li>\r\n            ",1434,1598);
+$z[5][4]=array();
+$z[5][4]['type']="son";
+$z[5][4]['typeid']="5";
+$z[6]=Array("type","\r\n        <div class=\"help_top\"><a href=\"[field:typelink/]\">[field:typename/]</a></div>\r\n        ",1740,1871);
+$z[6][4]=array();
+$z[6][4]['typeid']="8";
+$z[7]=Array("channel","\r\n            <li><a href='[field:typelink/]'>[field:typename/]</a></li>\r\n            ",1934,2072);
+$z[7][4]=array();
+$z[7][4]['type']="son";
+$z[7][4]['typeid']="8";
+$z[8]=Array("global","",2287,2308);
+$z[8][4]=array();
+$z[8][4]['name']="cfg_hm";
+$z[9]=Array("global","",2351,2372);
+$z[9][4]=array();
+$z[9][4]['name']="cfg_cz";
+$z[10]=Array("global","",2421,2442);
+$z[10][4]=array();
+$z[10][4]['name']="cfg_hz";
+$z[11]=Array("global","",2492,2513);
+$z[11][4]=array();
+$z[11][4]['name']="cfg_dz";
+$z[12]=Array("global","",2756,2782);
+$z[12][4]=array();
+$z[12][4]['name']="cfg_powerby";
+
+?>
